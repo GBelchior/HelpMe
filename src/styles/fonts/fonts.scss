@@ -1,0 +1,7 @@
+$base-src: "styles/fonts";
+
+@import "./montserrat/montserrat.font";
+@import "./material-icons/material.icons";
+
+@include montserrat-font($base-src);
+@include material-icons($base-src);

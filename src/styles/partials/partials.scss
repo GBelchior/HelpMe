@@ -1,0 +1,6 @@
+@import 'styles/partials/libs/libs.partial';
+@import 'styles/partials/assets/assets.partial';
+
+@mixin app-partials($theme) {
+  @include app-assets-partial($theme);
+}

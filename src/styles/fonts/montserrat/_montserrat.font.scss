@@ -1,0 +1,33 @@
+@mixin montserrat-font($base-url) {
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    src: url(#{$base-url+'/montserrat/asset/Montserrat-Light.ttf'})
+      format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url(#{$base-url+'/montserrat/asset/Montserrat-Regular.ttf'})
+      format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    src: url(#{$base-url+'/montserrat/asset/Montserrat-SemiBold.ttf'})
+      format('truetype');
+  }
+
+  @font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: url(#{$base-url+'/montserrat/asset/Montserrat-Bold.ttf'})
+      format('truetype');
+  }
+}
