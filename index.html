@@ -49,24 +49,8 @@
 						<div class="collapse navbar-collapse offset" id="navbarSupportedContent">
 							<ul class="nav navbar-nav menu_nav ml-auto">
 								<li class="nav-item active"><a class="nav-link" href="#home">Home</a></li> 
-								<li class="nav-item"><a class="nav-link" href="#feature">FEATURES</a></li> 
-								<li class="nav-item"><a class="nav-link" href="#video">VIDEO</a>
-								<li class="nav-item"><a class="nav-link" href="#price">PRICING</a>
-								<li class="nav-item"><a class="nav-link" href="#screen">SCREENS</a>
-								<li class="nav-item submenu dropdown">
-									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Pages</a>
-									<ul class="dropdown-menu">
-										<li class="nav-item"><a class="nav-link" href="elements.html">Elements</a></li>
-									</ul>
-								</li> 
-								<li class="nav-item submenu dropdown">
-									<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Blog</a>
-									<ul class="dropdown-menu">
-										<li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
-										<li class="nav-item"><a class="nav-link" href="single-blog.html">Blog Details</a></li>
-									</ul>
-								</li> 
-								<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+								<li class="nav-item"><a id="featureBtn" class="nav-link" href="#feature">FUNCIONALIDADES</a></li> 
+								<li class="nav-item"><a class="nav-link" href="#screen">TELAS</a>
 							</ul>
 						</div> 
 					</div>
@@ -83,7 +67,7 @@
 						<div class="col-lg-9">
 							<h2>A melhor ajuda que <br />você pode ter</h2>
 							<p>Help-Me é um software de colaboração, que tem como função ajudar a comunidade acadêmica a respeito do conteúdo das disciplinas</p>
-							<a class="banner_btn" href="#">Conheça agora</a>
+							<a class="banner_btn" href="#" onclick="document.getElementById('featureBtn').click()">Conheça agora</a>
 						</div>
 						<div class="col-lg-3">
 							<div class="banner_map_img">
@@ -172,110 +156,16 @@
         				<img class="img-fluid" src="img/interior-2.png" alt="">
         			</div>
         		</div>
-        		<div class="video_area" id="video">
-        			<img class="img-fluid" src="img/video-1.png" alt="">
-        			<a class="popup-youtube" href="https://www.youtube.com/watch?v=VufDd-QL1c0">
-        				<img src="img/icon/video-icon-1.png" alt="">
-        			</a>
-        		</div>
         	</div>
         </section>
         <!--================End Interior Area =================-->
-        
-        <!--================Price Area =================-->
-        <section class="price_area p_120" id="price">
-        	<div class="container">
-        		<div class="main_title">
-        			<h2>Pricing Table</h2>
-        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua.</p>
-        		</div>
-        		<div class="price_item_inner row">
-        			<div class="col-lg-4">
-        				<div class="price_item">
-        					<div class="price_head">
-        						<div class="float-left">
-        							<h3>Standard</h3>
-        							<p>For the individuals</p>
-        						</div>
-        						<div class="float-right">
-        							<h2>£199</h2>
-        						</div>
-        					</div>
-        					<div class="price_body">
-        						<ul class="list">
-        							<li><a href="#">2.5 GB Free Photos</a></li>
-        							<li><a href="#">Secure Online Transfer Indeed</a></li>
-        							<li><a href="#">Unlimited Styles for interface</a></li>
-        							<li><a href="#">Reliable Customer Service</a></li>
-        							<li><a href="#">Manual Backup Provided</a></li>
-        						</ul>
-        					</div>
-        					<div class="price_footer">
-        						<a class="main_btn2" href="#">Purchase Plan</a>
-        					</div>
-        				</div>
-        			</div>
-        			<div class="col-lg-4">
-        				<div class="price_item">
-        					<div class="price_head">
-        						<div class="float-left">
-        							<h3>Standard</h3>
-        							<p>For the individuals</p>
-        						</div>
-        						<div class="float-right">
-        							<h2>£199</h2>
-        						</div>
-        					</div>
-        					<div class="price_body">
-        						<ul class="list">
-        							<li><a href="#">2.5 GB Free Photos</a></li>
-        							<li><a href="#">Secure Online Transfer Indeed</a></li>
-        							<li><a href="#">Unlimited Styles for interface</a></li>
-        							<li><a href="#">Reliable Customer Service</a></li>
-        							<li><a href="#">Manual Backup Provided</a></li>
-        						</ul>
-        					</div>
-        					<div class="price_footer">
-        						<a class="main_btn2" href="#">Purchase Plan</a>
-        					</div>
-        				</div>
-        			</div>
-        			<div class="col-lg-4">
-        				<div class="price_item">
-        					<div class="price_head">
-        						<div class="float-left">
-        							<h3>Standard</h3>
-        							<p>For the individuals</p>
-        						</div>
-        						<div class="float-right">
-        							<h2>£199</h2>
-        						</div>
-        					</div>
-        					<div class="price_body">
-        						<ul class="list">
-        							<li><a href="#">2.5 GB Free Photos</a></li>
-        							<li><a href="#">Secure Online Transfer Indeed</a></li>
-        							<li><a href="#">Unlimited Styles for interface</a></li>
-        							<li><a href="#">Reliable Customer Service</a></li>
-        							<li><a href="#">Manual Backup Provided</a></li>
-        						</ul>
-        					</div>
-        					<div class="price_footer">
-        						<a class="main_btn2" href="#">Purchase Plan</a>
-        					</div>
-        				</div>
-        			</div>
-        		</div>
-        	</div>
-        </section>
-        <!--================End Price Area =================-->
         
         <!--================Feature Area =================-->
         <section class="screenshot_area p_120" id="screen">
         	<div class="container">
         		<div class="main_title">
-        			<h2>Unique Screenshots</h2>
-        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua.</p>
+        			<h2>Telas</h2>
+        			<p>Conheça mais sobre nosso aplicativo</p>
         		</div>
         		<div class="screenshot_inner owl-carousel">
         			<div class="item">
@@ -299,8 +189,8 @@
         <section class="testimonials_area p_120">
         	<div class="container">
         		<div class="main_title">
-        			<h2>Testimonials</h2>
-        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua.</p>
+        			<h2>Depoimentos</h2>
+        			<p>Veja o que os outros estão dizendo sobre nossa aplicação</p>
         		</div>
         		<div class="testi_slider owl-carousel">
         			<div class="item">
@@ -310,7 +200,7 @@
 									<img src="img/testimonials/testi-1.png" alt="">
 								</div>
 								<div class="media-body">
-									<p>Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware.</p>
+									<p>Tinha muita dificuldade em algumas matérias, mas depois de conhecer esse aplicativo consegui melhorar muito os meus estudos!</p>
 									<h4>Mark Alviro Wiens</h4>
 									<h5>CEO at Google</h5>
 								</div>
@@ -324,7 +214,7 @@
 									<img src="img/testimonials/testi-2.png" alt="">
 								</div>
 								<div class="media-body">
-									<p>Accessories Here you can find the best computer accessory for your laptop, monitor, printer, scanner, speaker, projector, hardware.</p>
+									<p>A melhor parte é que eu posso postar uma dúvida e receber respostas até de professores, então mesmo não estando na faculdade consigo solucionar minhas dúvidas.</p>
 									<h4>Mark Alviro Wiens</h4>
 									<h5>CEO at Google</h5>
 								</div>
@@ -340,28 +230,13 @@
         <section class="download_app_area p_120">
         	<div class="container">
         		<div class="app_inner">
-        			<h2>Download This App Today!</h2>
-        			<p>It won’t be a bigger problem to find one video game lover in your neighbor. Since the introduction of Virtual Game, it has been achieving great heights so far as its popularity and technological advancement are concerned.</p>
+        			<h2>Teste o nosso app!</h2>
+        			<p>Ainda estamos em fase de prototipação, mas veja o nosso desenvolvimento até agora</p>
         			<div class="app_btn_area">
-        				<div class="app_btn">
+        				<a class="app_btn" target="_blank" href="https://creator.ionic.io/share/7ac7202140c7">
         					<div class="media">
-								<div class="d-flex">
-									<i class="fa fa-apple" aria-hidden="true"></i>
-								</div>
 								<div class="media-body">
-									<a href="#"><h4>Available</h4></a>
-									<p>on App Store</p>
-								</div>
-							</div>
-        				</div>
-        				<div class="app_btn">
-        					<div class="media">
-								<div class="d-flex">
-									<i class="fa fa-android" aria-hidden="true"></i>
-								</div>
-								<div class="media-body">
-									<a href="#"><h4>Available</h4></a>
-									<p>on App Store</p>
+									<h4>Acesse o protótipo</h4>
 								</div>
 							</div>
         				</div>
@@ -370,120 +245,6 @@
         	</div>
         </section>
         <!--================End Download App Area =================-->
-        
-        <!--================Latest News Area =================-->
-        <section class="latest_news_area p_120">
-        	<div class="container">
-        		<div class="main_title">
-        			<h2>Latest News</h2>
-        			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore  et dolore magna aliqua.</p>
-        		</div>
-        		<div class="latest_news_inner row">
-        			<div class="col-lg-4">
-        				<div class="l_news_item">
-        					<a class="date" href="#">10 April, 2018</a>
-        					<a href="#"><h4>Benjamin Franklin Method Of Habit Formation</h4></a>
-        					<p>There are many kinds of narratives and organizing principles. Science is driven by evidence gathered in experiments, and by the falsification of extant theories and their </p>
-        					<div class="post_view">
-        						<a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 4.5k Views</a>
-        						<a href="#"><i class="fa fa-commenting" aria-hidden="true"></i> 07</a>
-        						<a href="#"><i class="fa fa-reply" aria-hidden="true"></i> 362</a>
-        					</div>
-        				</div>
-        			</div>
-        			<div class="col-lg-4">
-        				<div class="l_news_item">
-        					<a class="date" href="#">10 April, 2018</a>
-        					<a href="#"><h4>Benjamin Franklin Method Of Habit Formation</h4></a>
-        					<p>There are many kinds of narratives and organizing principles. Science is driven by evidence gathered in experiments, and by the falsification of extant theories and their </p>
-        					<div class="post_view">
-        						<a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 4.5k Views</a>
-        						<a href="#"><i class="fa fa-commenting" aria-hidden="true"></i> 07</a>
-        						<a href="#"><i class="fa fa-reply" aria-hidden="true"></i> 362</a>
-        					</div>
-        				</div>
-        			</div>
-        			<div class="col-lg-4">
-        				<div class="l_news_item">
-        					<a class="date" href="#">10 April, 2018</a>
-        					<a href="#"><h4>Benjamin Franklin Method Of Habit Formation</h4></a>
-        					<p>There are many kinds of narratives and organizing principles. Science is driven by evidence gathered in experiments, and by the falsification of extant theories and their </p>
-        					<div class="post_view">
-        						<a href="#"><i class="fa fa-eye" aria-hidden="true"></i> 4.5k Views</a>
-        						<a href="#"><i class="fa fa-commenting" aria-hidden="true"></i> 07</a>
-        						<a href="#"><i class="fa fa-reply" aria-hidden="true"></i> 362</a>
-        					</div>
-        				</div>
-        			</div>
-        		</div>
-        	</div>
-        </section>
-        <!--================End Latest News Area =================-->
-        
-        <!--================ start footer Area  =================-->	
-        <footer class="footer-area p_120">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-3  col-md-6 col-sm-6">
-                        <div class="single-footer-widget tp_widgets">
-                           <h6 class="footer_title">Top Products</h6>
-                            <ul class="list">
-                            	<li><a href="#">Managed Website</a></li>
-                            	<li><a href="#">Manage Reputation</a></li>
-                            	<li><a href="#">Power Tools</a></li>
-                            	<li><a href="#">Marketing Service</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 col-md-6 col-sm-6">
-                        <div class="single-footer-widget news_widgets">
-                            <h6 class="footer_title">Newsletter</h6>
-                            <p>You can trust us. we only send promo offers, not a single spam.</p>		
-                            <div id="mc_embed_signup">
-                                <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative">
-                                    <div class="input-group d-flex flex-row">
-                                        <input name="EMAIL" placeholder="Your email address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email Address '" required="" type="email">
-                                        <button class="btn sub-btn">Get Started</button>		
-                                    </div>									
-                                    <div class="mt-10 info"></div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 offset-lg-1">
-                        <div class="single-footer-widget instafeed">
-                            <h6 class="footer_title">Instagram Feed</h6>
-                            <ul class="list instafeed d-flex flex-wrap">
-                                <li><img src="img/instagram/Image-01.jpg" alt=""></li>
-                                <li><img src="img/instagram/Image-02.jpg" alt=""></li>
-                                <li><img src="img/instagram/Image-03.jpg" alt=""></li>
-                                <li><img src="img/instagram/Image-04.jpg" alt=""></li>
-                                <li><img src="img/instagram/Image-05.jpg" alt=""></li>
-                                <li><img src="img/instagram/Image-06.jpg" alt=""></li>
-                                <li><img src="img/instagram/Image-07.jpg" alt=""></li>
-                                <li><img src="img/instagram/Image-08.jpg" alt=""></li>
-                            </ul>
-                        </div>
-                    </div>	
-                </div>
-                <div class="row footer-bottom d-flex justify-content-between align-items-center">
-                    <p class="col-lg-8 col-md-8 footer-text m-0"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
-                    <div class="col-lg-4 col-md-4 footer-social">
-                        <a href="#"><i class="fa fa-facebook"></i></a>
-                        <a href="#"><i class="fa fa-twitter"></i></a>
-                        <a href="#"><i class="fa fa-dribbble"></i></a>
-                        <a href="#"><i class="fa fa-behance"></i></a>
-                    </div>
-                </div>
-            </div>
-        </footer>
-		<!--================ End footer Area  =================-->
-        
-        
-        
-        
         
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
